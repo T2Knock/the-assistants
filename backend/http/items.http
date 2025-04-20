@@ -1,0 +1,19 @@
+
+### GET all request for items
+
+GET http://localhost:8000/items/
+
+### GET detail an item
+
+GET http://localhost:8000/items/2
+
+### Update request for an item
+
+PUT http://localhost:8000/items/2
+Content-type: application/json
+
+{
+  "name": "new item 1",
+  "price": "50000",
+  "is_offer": false
+}
